@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Vamshi Prasad Goteti, a Full Stack Developer with experience in React, Azure, AWS, and more.">
+  <meta name="keywords" content="Vamshi Prasad Goteti, Full Stack Developer, Portfolio, React, Azure, AWS, C#, Java, Power BI, Tableau">
+  <meta name="author" content="Vamshi Prasad Goteti">
+  <title>Vamshi Prasad Goteti Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
+  <style>
+    body {
+      background: #0d1117;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      overflow-x: hidden;
+      position: relative;
+    }
+    .prism-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: linear-gradient(45deg, #ff0000, #ff9900, #33cc33, #00b7eb, #6633cc, #ff0000);
+      background-size: 600%;
+      animation: prismShift 20s ease infinite;
+      opacity: 0.7;
+    }
+    .prism-shapes {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+    .prism-shapes::before,
+    .prism-shapes::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 52px solid rgba(255, 255, 255, 0.2);
+      animation: drift 25s linear infinite;
+    }
+    .prism-shapes::before {
+      top: -60px;
+      left: 10%;
+      animation-delay: 0s;
+    }
+    .prism-shapes::after {
+      top: -60px;
+      left: 60%;
+      animation-delay: 10s;
+    }
+    @keyframes prismShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    @keyframes drift {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(120vh) rotate(360deg); }
+    }
+    .skill-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .skill-card:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: black;
+    }
+    .skill-card img {
+      height: 50px;
+      margin-bottom: 10px;
+    }
+    .carousel-item {
+      padding: 20px;
+    }
+    @media (max-width: 576px) {
+      .carousel-item {
+        padding: 10px;
+      }
+    }
+    .project-card {
+      border-radius: 10px;
+      padding: 20px;
+      min-height: 260px;
+      background-size: cover !important;
+      background-position: center !important;
+      color: #fff;
+      text-shadow: 1px 1px 3px #000;
+    }
+    .project-card .btn {
+      margin-top: 10px;
+    }
+    form {
+      max-width: 600px;
+      width: 100%;
+    }
+    .attribution {
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="prism-background"></div>
+  <div class="prism-shapes"></div>
+  <nav class="navbar navbar-dark bg-dark px-5" role="navigation">
+    <span class="navbar-brand">My Portfolio</span>
+    <div>
+      <a class="nav-link d-inline text-white" href="#skills" aria-label="Skills Section">Skills</a>
+      <a class="nav-link d-inline text-white" href="#projects" aria-label="Projects Section">Projects</a>
+      <a class="nav-link d-inline text-white" href="#contact" aria-label="Contact Section">Contact</a>
+    </div>
+  </nav>
+
+  <header class="container text-center my-5">
+    <h1>Hi! I'm <span class="text-warning">Vamshi Prasad Goteti</span></h1>
+    <h3>Full Stack Developer</h3>
+    <p class="mt-3">Industrially trained and Experienced with 1 year Placement projects with clients through University of East London.Highly motivated and detail-oriented web developer with a strong foundation in front-end and back-end technologies. Proficient in HTML, CSS, JavaScript, and React, with hands-on experience in building responsive and dynamic web applications. Known for excellent problem-solving skills, teamwork, and a passion for creating user-friendly digital experiences.</p>
+    <a class="btn btn-warning mt-3" href="Vamshi_Ats_Res1.docx" download="Vamshi_Ats_Res1.docx">Download CV</a>
+  </header>
+
+  <section id="skills" class="container my-5">
+    <h2 class="text-warning text-center">My Skills</h2>
+    <p class="text-center text-muted">Technologies I've mastered through experience</p>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-3">
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" loading="lazy"><p>HTML5</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" loading="lazy"><p>CSS3</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy"><p>JavaScript</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" loading="lazy"><p>React</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" loading="lazy"><p>Bootstrap</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" loading="lazy"><p>Figma</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" loading="lazy"><p>AWS</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" " alt="Azure" " alt="Azure" loading="lazy"><p>Azure</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuredevops/azuredevops-plain.svg" alt="DevOps" loading="lazy"><p>DevOps</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" alt="C#" loading="lazy"><p>C#</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="Java" loading="lazy"><p>Java</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/master/SVG/Power-BI.svg" alt="Power BI" loading="lazy"><p>Power BI</p></div></div>
+      <div class="col"><div class="skill-card"><img src="https://img.icons8.com/color/48/000000/tableau-software.png" alt="Tableau" loading="lazy"><p>Tableau</p></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="container my-5">
+    <h2 class="text-warning text-center">My Projects</h2>
+    <p class="text-center text-muted">Here are some of my recent works</p>
+    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1581090700227-1e7fcb89d61b');" role="img" aria-label="Real Estate Website Screenshot" loading="lazy">
+            <h4>Real Estate Website</h4>
+            <p>Responsive site using React & Tailwind CSS for a real estate platform.</p>
+            <a class="btn btn-outline-light" href="https://demo.vamshi-prasad.com/real-estate">View Project</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1500964757637-c85e8a162699');" role="img" aria-label="Weather Dashboard Screenshot" loading="lazy">
+            <h4>Weather Dashboard</h4>
+            <p>Interactive dashboard built with Vue.js and Bootstrap, fetching real-time weather data via OpenWeatherMap API.</p>
+            <a class="btn btn-outline-light" href="https://demo.vamshi-prasad.com/weather-dashboard">View Project</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1605379399642-870262d3d051');" role="img" aria-label="Portfolio Website Screenshot" loading="lazy">
+            <h4>Portfolio</h4>
+            <p>Modern React-based portfolio using Three.js and Framer Motion for animations.</p>
+            <a class="btn btn-outline-light" href="https://demo.vamshi-prasad.com/portfolio">View Project</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1526498469089-1fcee81e2c67');" role="img" aria-label="Photography Portfolio Screenshot" loading="lazy">
+            <h4>Photography Portfolio</h4>
+            <p>Responsive gallery site using React and CSS Grid with lazy-loaded images and lightbox effects.</p>
+            <a class="btn btn-outline-light" href="https://demo.vamshi-prasad.com/photography-portfolio">View Project</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c');" role="img" aria-label="Task Manager App Screenshot" loading="lazy">
+            <h4>Task Manager App</h4>
+            <p>Vue & Vuex app with calendar, drag-and-drop tasks, and local storage.</p>
+            <a class="btn btn-outline-light" href="https://demo.vamshi-prasad.com/task-manager">View Project</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678');" role="img" aria-label="Event Booking App Screenshot" loading="lazy">
+            <h4>Event Booking App</h4>
+            <p>Front-end app built with JavaScript and Bootstrap, featuring a dynamic event calendar and booking form.</p>
+            <a class="btn btn-outline-light" href="https://demo.vamshi-prasad.com/event-booking">View Project</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev" aria-label="Previous Project">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next" aria-label="Next Project">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <section id="contact" class="container my-5">
+    <h2 class="text-warning text-center">Get In Touch</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="bg-dark p-4 rounded shadow-lg mx-auto">
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Enter your name" aria-label="Name" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Write your message" aria-label="Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-warning w-100">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-3">
+    <a href="https://linkedin.com/in/vamshi-prasad-goteti" class="text-white mx-2" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/vamshi-prasad" class="text-white mx-2" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+    <p class="attribution">Azure icon by <a href="https://learn.microsoft.com/en-us/azure/architecture/icons/" target="_blank">Microsoft Azure</a> | Tableau icon by <a href="https://github.com/devicons/devicon" target="_blank">Devicon</a> | Power BI icon by <a href="https://github.com/microsoft/PowerBI-Icons" target="_blank">Microsoft</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script>
+    document.querySelectorAll('.nav-link').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+    document.querySelector('form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Form submitted! Please configure Formspree with your form ID for full functionality.');
+    });
+  </script>
+</body>
+</html>
