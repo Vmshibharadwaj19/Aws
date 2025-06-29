@@ -1,3 +1,4 @@
+<img width="929" alt="Screenshot 2025-06-26 110954" src="https://github.com/user-attachments/assets/19592ecf-e343-4885-a845-07d7e918d560" />
 # Full Stack Portfolio Website Deployment on AWS EC2 Using Apache and GitHub
 
 **Candidate**: Vamshi Prasad Goteti  
@@ -30,6 +31,7 @@ This project demonstrates the complete process of deploying a personal portfolio
 
 ### Screenshot References
 
+<img width="959" alt="Screenshot 2025-06-26 110838" src="https://github.com/user-attachments/assets/b1d3dcfa-c0e1-4107-8c1a-d04c3bd3daed" />
 - EC2 instance launch success confirmation  
 - Security group with HTTP/HTTPS access  
 
@@ -105,6 +107,7 @@ The deployed site includes:
 - Understanding of security groups and SSH access  
 
 ---
+## **Live Images**
 <img width="712" alt="Screenshot 2025-06-26 153533" src="https://github.com/user-attachments/assets/7d181bb2-0a0e-4fd6-a108-92ae48894260" />
 <img width="712" alt="Screenshot 2025-06-26 153533" src="https://github.com/user-attachments/assets/7d181bb2-0a0e-4fd6-a108-92ae48894260" />
 <img width="712" alt="Screenshot 2025-06-26 153533" src="https://github.com/user-attachments/assets/7d181bb2-0a0e-4fd6-a108-92ae48894260" />
