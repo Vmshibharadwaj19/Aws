@@ -1,4 +1,4 @@
-<img width="929" alt="Screenshot 2025-06-26 110954" src="https://github.com/user-attachments/assets/19592ecf-e343-4885-a845-07d7e918d560" />
+
 # Full Stack Portfolio Website Deployment on AWS EC2 Using Apache and GitHub
 
 **Candidate**: Vamshi Prasad Goteti  
@@ -95,6 +95,8 @@ The deployed site includes:
 - Git clone and deployment steps  
 - Final portfolio website displayed in browser  
 
+## 🖼️
+<img width="929" alt="Screenshot 2025-06-26 110954" src="https://github.com/user-attachments/assets/19592ecf-e343-4885-a845-07d7e918d560" />
 ---
 
 ## 🛠️ Skills Demonstrated
