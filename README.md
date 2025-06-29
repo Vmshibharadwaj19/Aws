@@ -105,10 +105,15 @@ The deployed site includes:
 - Understanding of security groups and SSH access  
 
 ---
-
+<img width="712" alt="Screenshot 2025-06-26 153533" src="https://github.com/user-attachments/assets/7d181bb2-0a0e-4fd6-a108-92ae48894260" />
+<img width="712" alt="Screenshot 2025-06-26 153533" src="https://github.com/user-attachments/assets/7d181bb2-0a0e-4fd6-a108-92ae48894260" />
+<img width="712" alt="Screenshot 2025-06-26 153533" src="https://github.com/user-attachments/assets/7d181bb2-0a0e-4fd6-a108-92ae48894260" />
+<img width="959" alt="Screenshot 2025-06-26 110838" src="https://github.com/user-attachments/assets/b1d3dcfa-c0e1-4107-8c1a-d04c3bd3daed" />
 ## 🔗 Useful Links
 
 - **Live Website**: http://44.203.4.136  
 - **Source Code**: https://github.com/Vmshibharadwaj19/Aws  
 
 ---
+
+
